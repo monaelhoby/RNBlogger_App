@@ -1,7 +1,7 @@
 
 import {AUTHENTICATE, LOGOUT} from '../actions/admin'
 
-initialState = {
+const initialState = {
     token : null,
     userId : null
 }
