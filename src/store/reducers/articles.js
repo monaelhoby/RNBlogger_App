@@ -8,7 +8,7 @@ import {
 import Article from '../../modal'
 
 
-initialState = {
+const initialState = {
     articles : [],
     userArticles : []
 }
