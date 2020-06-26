@@ -48,7 +48,7 @@ const ArticleReducer = (state = initialState, action) => {
                 )
                 const updatedArticle = new Article(
                     action.articleId,
-                    state.userArticles[articleId].ownerId ,  
+                    state.userArticles[articleIndex].ownerId ,  
                     action.ArticleData.title,
                     action.ArticleData.imgLink,
                     action.ArticleData.detail
