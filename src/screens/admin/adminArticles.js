@@ -17,7 +17,7 @@ import { Ionicons } from '@expo/vector-icons';
 import Color from '../../constants/colors'
 
 
-const PlacesList = props => {
+const ArticlesList = props => {
 
     const articles = useSelector(state => state.ArticleReducer.userArticles );
 
@@ -92,7 +92,7 @@ const PlacesList = props => {
     )
 }
 
-export default PlacesList
+export default ArticlesList
 
 const styles = StyleSheet.create({
     btns : {
